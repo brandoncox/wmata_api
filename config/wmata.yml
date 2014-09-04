@@ -1,0 +1,6 @@
+development:
+    api_key: XXXXXXXXXXXXXXXXX
+test:
+    api_key: XXXXXXXXXXXXXXXXX
+production:
+    api_key: XXXXXXXXXXXXXXXXX
