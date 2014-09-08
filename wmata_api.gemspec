@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'wmata_api/version'
+require 'wmata/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "wmata_api"
-  spec.version       = WmataApi::VERSION
+  spec.version       = Wmata::VERSION
   spec.authors       = ["Brandon Cox"]
   spec.email         = ["brandon.cox.519@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
