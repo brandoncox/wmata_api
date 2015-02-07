@@ -1,3 +1,3 @@
 # WmataApi
 
-for REST usage, refer to http://developer.wmata.com/docs/read/
+for REST usage, refer to https://developer.wmata.com/docs/services/
