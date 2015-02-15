@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Wmata::VERSION
   spec.authors       = ["Brandon Cox"]
   spec.email         = ["brandon.cox.519@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "this is for fun"
+  spec.description   = "this is a longer description of fun"
   spec.homepage      = ""
   spec.license       = "MIT"
 

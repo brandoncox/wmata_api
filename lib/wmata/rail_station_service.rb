@@ -4,37 +4,14 @@ module Wmata
 
       def lines 
         #https://api.wmata.com/Rail.svc/json/jLines?api_key=<Your subscription key>
-      end
-
-      def parking_information
-
-      end
-
-      def path_between_stations
-
-      end
-
-      def station_entrances
-
-      end
-
-      def station_information
-
+        request = Request.new(:service => :rail)
+        client.get(request)
       end
 
       def station_list
+        #https://api.wmata.com/Rail.svc/json/jStations[?LineCode]&api_key=<Your subscription key>
 
       end
-
-      def station_timings
-
-      end
-
-      def stations_to_station_information
-
-      end
-
-
     end
   end
 end
